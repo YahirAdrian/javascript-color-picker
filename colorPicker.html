@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Color picker con html, css y js</title>
+    <link rel="stylesheet" href="colorPicker.css"/>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat"/>
+  </head>
+  <body>
+    <header>
+      <h1 id="headline">Html color picker</h1>
+    </header>
+
+    <section>
+      <div class="app">
+        <div class="rangos">
+          <h2>R</h2>
+          <input type="range"  class="sliders red" value="224" min="0" max="255" id="red"/>
+          1<h2>G</h2>
+          <input type="range" class="sliders green" value="22" min="0" max="255" id="green"/>
+          <h2>B</h2>
+          <input type="range" class="sliders blue" value="22" min="0" max="255" id="blue"/>
+        </div>
+        <div class="color" id="color">
+          <h2 id="rgb">rgb(224, 22, 22) </h2>
+            <h2 id="hexadecimal">Hex : #e01616</h2>
+
+        </div>
+      </div>
+    </section>
+    <script src="colorPicker.js" charset="utf-8"></script>
+  </body>
+</html>

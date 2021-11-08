@@ -1,0 +1,50 @@
+body, html{
+  margin: 0;
+  width: 100%;
+  height: 100%;
+  font-family: "Montserrat" ,sans-serif;
+}
+
+#headline{
+  margin: 0px 0px 2cm 0pc;
+  text-align: center;
+  background-color: #18f07d;
+}
+/* la app */
+.app{
+  border: 2px solid #000;
+  border-radius: 1.2pc;
+  width: 50%;
+  height: auto;
+  max-width: 15cm;
+  margin: 1pc 25% 0 25%;
+}
+
+input[type="range"]{
+  width: 90%;
+}
+
+.rangos{
+  margin: 1pc 0px 1pc 1pc;
+  display: block;
+}
+.color{
+  width: 85%;
+  height: 5.6pc;
+  margin: 0px 0.8cm 5px 0.8cm;
+  background-color: rgb(210, 140, 40);
+}
+
+#rgb{
+  text-align: justify;
+  padding-top: 2px;
+}
+
+@keyframes fade {
+    from{
+      color: #000;
+    }
+    to{
+      color: #fff;
+    }
+}
